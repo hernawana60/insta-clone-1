@@ -74,7 +74,7 @@ function Header() {
 
               <PlusCircleIcon
                 onClick={() => setOpen(true)}
-                className="navBtn"
+                className="navBtnPlus"
               />
               <UserGroupIcon className="navBtn" />
               <HeartIcon className="navBtn" />
