@@ -74,7 +74,7 @@ function Header() {
 
               <PlusCircleIcon
                 onClick={() => setOpen(true)}
-                className="h-7 display:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out"
+                className="h-7 sm:h-6 display:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out"
               />
               <UserGroupIcon className="navBtn" />
               <HeartIcon className="navBtn" />
