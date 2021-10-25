@@ -7,10 +7,6 @@
     @apply hidden h-6 md:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
   }
 
-  .navBtnPlus {
-    @apply h-6 display:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
-  }
-
   .overflow-x-scroll::-webkit-scrollbar {
     width: 0;
   }

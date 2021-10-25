@@ -74,7 +74,7 @@ function Header() {
 
               <PlusCircleIcon
                 onClick={() => setOpen(true)}
-                className="navBtnPlus"
+                className="h-6 display:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out"
               />
               <UserGroupIcon className="navBtn" />
               <HeartIcon className="navBtn" />
@@ -83,7 +83,7 @@ function Header() {
                 onClick={signOut}
                 src={session.user.image}
                 alt="profile pic"
-                className="h-10 w-10 rounded-full cursor-pointer"
+                className="h-6 w-6 sm:h-10 sm:w-10 rounded-full cursor-pointer"
               />
             </>
           ) : (
