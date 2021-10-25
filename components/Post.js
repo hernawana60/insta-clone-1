@@ -97,7 +97,7 @@ function Post({ id, username, userImg, img, caption }) {
       </div>
 
       {/* img */}
-      <img src={img} className="object-cover w-full" alt="conten" />
+      <img src={img} className="object-cover w-screen" alt="conten" />
 
       {/* Buttons */}
       {session && (
